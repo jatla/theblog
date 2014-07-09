@@ -13,6 +13,11 @@ gem 'carrierwave'
 
 # Use postgres as the database for Active Record
 gem 'pg', '~> 0.17.1'
+gem 'omniauth-github'
+gem "twitter-bootstrap-rails"
+gem "therubyracer"
+
+gem 'rails_12factor', group: :production
 
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 4.0.0'
@@ -51,3 +56,5 @@ end
 
 # Use debugger
 # gem 'debugger', group: [:development, :test]
+
+
